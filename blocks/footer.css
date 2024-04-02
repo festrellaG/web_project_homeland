@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 92px;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  line-height: 16px;
+}

@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 90px;
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    padding-top: 50px;
+  }
+}
