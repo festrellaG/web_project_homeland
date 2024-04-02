@@ -41,6 +41,15 @@
   text-align: start;
   align-self: end;
   padding-bottom: 10px;
+  width: 288px;
+}
+
+.place__subtitle-down {
+  grid-area: subtitle;
+  text-align: start;
+  align-self: end;
+  padding-bottom: 10px;
+  width: 300px;
 }
 
 .place__profile {
@@ -164,7 +173,7 @@
   }
 
   .place__image {
-    max-width: 355px;
+    max-width: 340px;
     height: 100%;
     width: 100%;
     grid-area: image;
@@ -207,6 +216,20 @@
   .place__text_item_t {
     padding-top: 11px;
   }
+
+  .place__container {
+    grid-area: link;
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .place__button {
+    /*white-space: normal;
+    display: block;
+    align-self: stretch;*/
+    border: none;
+    padding: 11px 14px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -214,7 +237,7 @@
     /*display: grid;*/
     display: flex;
     flex-direction: column;
-    max-width: 288px;
+    max-width: 320px;
     width: 100%;
     padding-top: 62px;
     /*grid-template-areas:
@@ -238,22 +261,33 @@
     margin: 0;
     max-width: 288px;
     width: 100%;
+    max-width: 288px;
+    align-self: center;
+  }
+
+  .place__paragraph {
+    max-width: 288px;
+    align-self: center;
   }
 
   .place__title_elem_m {
     grid-area: title;
-    max-width: 288px;
   }
 
   .place__title_elem_l {
     grid-area: title;
     max-width: 288px;
+    align-self: center;
   }
 
   .place__subtitle {
+    max-width: 288px;
+    align-self: center;
   }
 
   .place__subtitle-down {
+    max-width: 288px;
+    align-self: center;
   }
 
   .place__profile {

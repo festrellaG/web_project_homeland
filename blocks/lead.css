@@ -2,10 +2,17 @@
   text-align: center;
 }
 
+.lead__container {
+  width: 100%;
+}
+
 .lead__header-title {
   font-size: 96px;
   line-height: 100px;
   margin: 0;
+  max-width: 793px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .lead__header-desc {
@@ -14,6 +21,9 @@
   margin: 0;
   padding-top: 99px;
   padding-bottom: 69px;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .lead__header-image {
