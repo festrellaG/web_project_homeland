@@ -264,11 +264,6 @@
     align-self: center;
   }
 
-  .place__paragraph {
-    max-width: 288px;
-    align-self: center;
-  }
-
   .place__title_elem_m {
     grid-area: title;
   }
@@ -315,6 +310,7 @@
     grid-area: paragraph;
     max-width: 288px;
     text-align: start;
+    align-self: center;
   }
 
   .place__text {
